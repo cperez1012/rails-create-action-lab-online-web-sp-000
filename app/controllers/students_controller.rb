@@ -13,7 +13,7 @@ class StudentsController < ApplicationController
   end
 
   def create
-    @student = Student.new
+    @post = Post.new
   end
 
 end
